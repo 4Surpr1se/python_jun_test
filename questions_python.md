@@ -985,7 +985,7 @@ x = int(s)
 
 1) q = queue.Queue(); q.put(item) ✓
 2) q = queue.Queue(); q.append(item)
-3) q = queue.Queue(); q.add(item) 
+3) q = queue.Queue(); q.add(item)
 4) q = queue.Queue(); q.insert(item)
 
 -)Какой из следующих способов является корректным для проверки, является ли поток рабочим?
@@ -1677,31 +1677,112 @@ class User(BaseModel):
 
 -)Какой тег используется для создания таблицы на странице?
 
-1) <table> ✓
-2) <tr> 
-3) <td> 
-4) <th>
+1) ✓
+
+```html 
+
+<table> 
+``` 
+
+2)
+
+```html 
+
+<tr> 
+``` 
+
+3)
+
+```html 
+
+<td> 
+``` 
+
+4)
+
+```html 
+
+<th> 
+``` 
 
 -)Какой тег используется для создания формы на странице?
 
-1) <input> 
-2) <form> ✓
-3) <textarea>
-4) <select>
+1)
+
+```html 
+<input> 
+``` 
+
+2) ✓
+
+```html
+
+<form>
+``` 
+
+3)
+
+```html
+<textarea>
+```
+
+4)
+
+```html
+<select>
+```
 
 -)Как в DTL создается условный оператор?
 
-1) if (condition) { ... }
-2) {% if condition %} ... {% endif %} ✓
-3) {{ if condition }} ... {{ endif }}
-4) <if condition> ... </if>
+1)
+
+```html
+if (condition) { ... }
+```
+
+2) ✓
+
+```html
+ {% if condition %} ... {% endif %}
+```
+
+3)
+
+```html
+{{ if condition }} ... {{ endif }}
+```
+
+4)
+
+```html
+
+<if condition> ...</if>
+```
 
 -)Как в DTL создается ссылка на статический файл?
 
-1) <a href="static/file.css"> 
-2) <a href="{{ static "file.css" }}">
-3) <a href="{% static "file.css" %}"> ✓
-4) <a href="@static/file.css">
+1)
+```html
+
+) <a href="static/file.css">
+
+```
+2)
+```html
+ <a href="{{ static "file.css" }}">
+```
+
+3) ✓
+
+```html
+<a href="{% static " file.css" %}"> 
+```
+
+4)
+
+```html
+<a href="@static/file.css">
+```
 
 # 19 Модуль
 
