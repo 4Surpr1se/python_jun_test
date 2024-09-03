@@ -665,17 +665,17 @@ class A:
         print('From A')
 
 
-class B(1):
+class B(A):
     def do_thing(self):
         print('From B')
 
 
-class C(1):
+class C(A):
     def do_thing(self):
         print('From C')
 
 
-class D(B, 3):
+class D(B, C):
     pass
 
 
